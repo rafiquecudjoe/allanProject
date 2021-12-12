@@ -1,4 +1,3 @@
-import '../styles/globals.css'
 import { ChakraProvider } from '@chakra-ui/provider'
 import type { AppProps } from 'next/app'
 import {theme }from '../theme/index';

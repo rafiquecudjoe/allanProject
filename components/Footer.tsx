@@ -16,85 +16,122 @@ export const Footer = () => {
       <Box borderBottom="1px" borderColor="brand.300">
         <Flex h="20">
           <Text color="brand.200" fontSize="12px" m="5">
-            Blog
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              Blog
+            </a>
           </Text>
           <Text color="brand.200" fontSize="12px" m="5">
-            About Us
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              About Us{" "}
+            </a>
           </Text>
+          <Box></Box>
+
           <Text color="brand.200" fontSize="12px" m="5">
-            FAQ
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              FAQ
+            </a>
           </Text>
+
           <Text color="brand.200" fontSize="12px" m="5">
-            Privacy Policy
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              Privacy Policy
+            </a>
           </Text>
+
           <Text color="brand.200" fontSize="12px" m="5">
-            Terms of Service
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              Terms of Service
+            </a>
           </Text>
+
           <Text color="brand.200" fontSize="12px" m="5">
-            Careers
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              Careers
+            </a>
           </Text>
+
           <Text color="brand.200" fontSize="12px" m="5">
-            Contact
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              Contact
+            </a>
           </Text>
+
           <Spacer />
           <Box m="1">
-            <Image
-              src="/../public/downloadIphone.svg"
-              alt="Picture of the author"
-              width="130px"
-              height="46px"
-            />
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              <Image
+                src="/../public/downloadIphone.svg"
+                alt="Picture of the author"
+                width="130px"
+                height="46px"
+              />
+            </a>
           </Box>
           <Box m="1">
-            <Image
-              src="/../public/downloadAndroid.svg"
-              alt="Picture of the author"
-              width="130px"
-              height="48px"
-            />
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              <Image
+                src="/../public/downloadAndroid.svg"
+                alt="Picture of the author"
+                width="130px"
+                height="48px"
+              />
+            </a>
           </Box>
         </Flex>
       </Box>
       <Box h="20">
         <Flex mt="2">
-          <Text color="white" fontSize="12px" m="5">
-            Logo
-          </Text>
+          <a href="#" target="_blank" rel="nofollow, noopener">
+            <Text color="white" fontSize="12px" m="5">
+              Logo
+            </Text>
+          </a>
           <Text color="white" opacity="0.5" fontSize="10px" m="5">
             © 2021 Booksy Inc. All rights reserved
           </Text>
 
           <Spacer />
-          <Box m="1">
+          <Box m="2" bg="brand.400" borderRadius="20" pt="2" h="10">
             <Image
               src="/../public/iG.svg"
               alt="Instagram icon"
-              width="40"
-              height="40"
-            />
-          </Box>
-          <Box m="1">
-            <Image
-              src="/../public/face2.svg"
-              alt="Facebook icon"
-              width="40"
-              height="40"
-            />
-          </Box>
-          <Box m="1">
-            <Image
-              className="bg=brand.100"
-              src="/../public/twitter.svg"
-              alt="twitter icon"
-              height="40"
+              height="25"
               width="40"
             />
           </Box>
+          <Box m="2" bg="brand.400" borderRadius="20" pt="2" h="10">
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              <Image
+                src="/../public/face2.svg"
+                alt="Facebook icon"
+                height="25"
+                width="40"
+              />
+            </a>
+          </Box>
+          <Flex m="2" bg="brand.400" borderRadius="20" pt="2" h="10">
+            <a href="#" target="_blank" rel="nofollow, noopener">
+              <Image
+                className="bg=brand.100"
+                src="/../public/twitter.svg"
+                alt="twitter icon"
+                height="25"
+                width="40"
+              />
+            </a>
+          </Flex>
         </Flex>
         <Box>
-          <Text color="white" opacity="0.5" fontSize="10px">
-            Switch to mobile view
-          </Text>
+          <a href="#" target="_blank" rel="nofollow, noopener">
+            <Text
+              color="white"
+              opacity="0.5"
+              fontSize="10px"
+            >
+              Switch to mobile view
+            </Text>
+          </a>
         </Box>
       </Box>
     </Box>
