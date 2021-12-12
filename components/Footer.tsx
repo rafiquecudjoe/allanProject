@@ -1,7 +1,6 @@
 import React from "react";
-import { Box, Text, Flex, Spacer} from "@chakra-ui/react";
-import Image from "next/image"
-
+import { Box, Text, Flex, Spacer } from "@chakra-ui/react";
+import Image from "next/image";
 
 export const Footer = () => {
   return (
@@ -43,7 +42,7 @@ export const Footer = () => {
               src="/../public/downloadIphone.svg"
               alt="Picture of the author"
               width="130px"
-            height="46px"
+              height="46px"
             />
           </Box>
           <Box m="1">
@@ -57,7 +56,46 @@ export const Footer = () => {
         </Flex>
       </Box>
       <Box h="20">
-        <Text>Helooo</Text>
+        <Flex mt="2">
+          <Text color="white" fontSize="12px" m="5">
+            Logo
+          </Text>
+          <Text color="white" opacity="0.5" fontSize="10px" m="5">
+            © 2021 Booksy Inc. All rights reserved
+          </Text>
+
+          <Spacer />
+          <Box m="1">
+            <Image
+              src="/../public/iG.svg"
+              alt="Instagram icon"
+              width="40"
+              height="40"
+            />
+          </Box>
+          <Box m="1">
+            <Image
+              src="/../public/face2.svg"
+              alt="Facebook icon"
+              width="40"
+              height="40"
+            />
+          </Box>
+          <Box m="1">
+            <Image
+              className="bg=brand.100"
+              src="/../public/twitter.svg"
+              alt="twitter icon"
+              height="40"
+              width="40"
+            />
+          </Box>
+        </Flex>
+        <Box>
+          <Text color="white" opacity="0.5" fontSize="10px">
+            Switch to mobile view
+          </Text>
+        </Box>
       </Box>
     </Box>
   );
