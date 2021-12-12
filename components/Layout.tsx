@@ -7,7 +7,7 @@ const Layout = ({ children} :any) => {
   return (
     <>
       <Head>
-        <title>Beacon Homes LLC</title>
+        <title>Title</title>
       </Head>
       <Box maxWidth="1280px" m="auto">
        
