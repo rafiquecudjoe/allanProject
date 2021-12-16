@@ -61,7 +61,7 @@ export const Footer = () => {
           <Box m="1">
             <a href="#" target="_blank" rel="nofollow, noopener">
               <Image
-                src="/../public/downloadIphone.svg"
+                src="/../public/Iphone.svg"
                 alt="Picture of the author"
                 width="130px"
                 height="46px"
@@ -71,7 +71,7 @@ export const Footer = () => {
           <Box m="1">
             <a href="#" target="_blank" rel="nofollow, noopener">
               <Image
-                src="/../public/downloadAndroid.svg"
+                src="/public/Android.svg"
                 alt="Picture of the author"
                 width="130px"
                 height="48px"

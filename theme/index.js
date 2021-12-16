@@ -12,4 +12,8 @@ export const theme = extendTheme({
       500: "#161718",
     },
   },
+  fonts: {
+    new: "Open Sans",
+    new1: "Raleway",
+  },
 });

@@ -1,7 +1,9 @@
 import Head from "next/head";
 import { Box } from "@chakra-ui/react";
 
+import Header from "../components/Header"
 import { Footer } from "./Footer";
+import { Banner } from "./Banner";
 
 const Layout = ({ children} :any) => {
   return (
@@ -9,10 +11,12 @@ const Layout = ({ children} :any) => {
       <Head>
         <title>Title</title>
       </Head>
-      <Box maxWidth="1280px" m="auto">
+      <Box  m="auto">
        
         <main>{children}</main>
-        <Footer />
+        <Banner/>
+        {/* <Header/> */}
+        {/* <Footer /> */}
       </Box>
     </>
   );
