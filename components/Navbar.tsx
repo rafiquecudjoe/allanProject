@@ -1,25 +1,34 @@
 import React from "react";
-import { Box, Text, Flex, Spacer } from "@chakra-ui/react";
+import { Box, Text, Flex, Spacer, Button } from "@chakra-ui/react";
 import Image from "next/image";
 
 
 export const Navbar = () => {
     
     return (
-      <Box height={20}>
-        <Text> Logo</Text>
-        <Spacer />
-        <Flex boxSize="sm">
-          <Image
-            src="/public/login.svg"
-            alt="Dan Abramov"
-            width="200"
-            height="200"
-          />
+      <Flex
+        height={20}
+        bg="red.400"
+        justifyContent="space-around"
+        alignItems="center"
+        flexDirection="row"
+      >
+        <Flex bg="green.200">
+          <Text> Logo</Text>
         </Flex>
-        <Text>Log In</Text>
-        <Text>/Signup</Text>
-      </Box>
+
+       
+        <Flex>
+          <Flex>
+            <Image src="/login.svg" alt="Dan Abramov" width="20" height="20" />
+          </Flex>
+          <Flex>
+            <Text>Log In</Text>
+            <Text>/Signup</Text>
+          </Flex>
+        </Flex>
+        <Button><Text>FOR BUSINESS</Text></Button>
+      </Flex>
     );
 }
 
