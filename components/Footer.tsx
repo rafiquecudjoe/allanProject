@@ -61,7 +61,7 @@ export const Footer = () => {
           <Box m="1">
             <a href="#" target="_blank" rel="nofollow, noopener">
               <Image
-                src="/../public/downloadIphone.svg"
+                src="/Iphone.svg"
                 alt="Picture of the author"
                 width="130px"
                 height="46px"
@@ -71,7 +71,7 @@ export const Footer = () => {
           <Box m="1">
             <a href="#" target="_blank" rel="nofollow, noopener">
               <Image
-                src="/../public/downloadAndroid.svg"
+                src="/Android.svg"
                 alt="Picture of the author"
                 width="130px"
                 height="48px"
@@ -94,7 +94,7 @@ export const Footer = () => {
           <Spacer />
           <Box m="2" bg="brand.400" borderRadius="20" pt="2" h="10">
             <Image
-              src="/../public/iG.svg"
+              src="/iG.svg"
               alt="Instagram icon"
               height="25"
               width="40"
@@ -103,7 +103,7 @@ export const Footer = () => {
           <Box m="2" bg="brand.400" borderRadius="20" pt="2" h="10">
             <a href="#" target="_blank" rel="nofollow, noopener">
               <Image
-                src="/../public/face2.svg"
+                src="/face2.svg"
                 alt="Facebook icon"
                 height="25"
                 width="40"
@@ -114,7 +114,7 @@ export const Footer = () => {
             <a href="#" target="_blank" rel="nofollow, noopener">
               <Image
                 className="bg=brand.100"
-                src="/../public/twitter.svg"
+                src="/twitter.svg"
                 alt="twitter icon"
                 height="25"
                 width="40"
